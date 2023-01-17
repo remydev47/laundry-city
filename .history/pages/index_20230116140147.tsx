@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Blog, Footer, Hero, Pricing, Reasons, Services, Testimonials } from '../components'
+import { Blog, Hero, Pricing, Reasons, Services, Testimonials } from '../components'
 import Steps from '../components/Steps'
 
 export default function Home() {
@@ -13,7 +13,6 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       <Blog />
-      <Footer />
     </div>
   )
 }
